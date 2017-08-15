@@ -1,58 +1,64 @@
 const expect = chai.expect;
 
 describe('index.js', () => {
-  describe('currentUser', () => {
-    it('is defined', () => {
-      expect(currentUser, "The 'currentUser' variable must contain a string").to.be.a('string');
-      expect(currentUser, "You need to modify the value of the 'currentUser' variable").to.not.be.empty;
-    });
-  });
+  describe('distanceFromHqInBlocks', () => {
+    it('returns a distance in feet', () => {
+      expect(distanceFromHqInBlocks(43)).to.equal(1);
+    })
 
-  describe('welcomeMessage', () => {
-    it('contains "Welcome to Flatbook, "', () => {
-      expect(welcomeMessage).to.have.string('Welcome to Flatbook, ');
-    });
+    it('returns a distance in feet', () => {
+      expect(distanceFromHqInBlocks(50)).to.equal(8);
+    })
 
-    it("contains the value of the 'currentUser' variable", () => {
-      expect(welcomeMessage).to.have.string(currentUser);
-    });
+    it('calculates distances below 42nd street', () => {
+      expect(distanceFromHqInBlocks(34)).to.equal(8)
+    })
+  })
 
-    it('ends with an exclamation point!', () => {
-      expect(welcomeMessage.substr(-1)).to.eq('!');
-    });
-  });
+  describe('distanceFromHqInFeet', () => {
+    it('returns a distance in feet', () => {
+      expect(distanceFromHqInFeet(43)).to.equal(264);
+    })
 
-  describe('excitedWelcomeMessage', () => {
-    it('contains "WELCOME TO FLATBOOK, "', () => {
-      expect(excitedWelcomeMessage).to.have.string('WELCOME TO FLATBOOK, ');
-    });
+    it('returns a distance in feet', () => {
+      expect(distanceFromHqInFeet(50)).to.equal(2112);
+    })
 
-    it("contains the value of the 'currentUser' variable", () => {
-      const upperCaseCurrentUser = currentUser.toUpperCase();
+    it('calculates distances below 42nd street', () => {
+      expect(distanceFromHqInFeet(34)).to.equal(2112)
+    })
+  })
 
-      expect(excitedWelcomeMessage).to.have.string(upperCaseCurrentUser);
-    });
+  describe('distanceTravelledInFeet', () => {
+    it('returns the distance travelled in feet', () => {
+      expect(distanceTravelledInFeet(43, 48)).to.equal(1320);
+    })
 
-    it('ends with an exclamation point', () => {
-      expect(excitedWelcomeMessage.substr(-1)).to.eq('!');
-    });
-  });
+    it('returns a distance in feet', () => {
+      expect(distanceTravelledInFeet(50, 60)).to.equal(2640);
+    })
 
-  describe('shortGreeting', () => {
-    it(`contains "Welcome, "`, () => {
-      expect(shortGreeting).to.have.string('Welcome, ');
-    });
+    it('returns distance when destination is below distance', () => {
+      expect(distanceTravelledInFeet(34, 28)).to.equal(1584)
+    })
+  })
 
-    it("contains the first initial of the name stored in the 'currentUser' variable", () => {
-      const firstInitial = currentUser[0];
-      const restOfName = currentUser.slice(1);
+  describe('calculatesFarePrice(start, destination)', () => {
+    it('gives customers a free sample', () => {
+      expect(calculatesFarePrice(43, 44)).to.equal(0);
+    })
 
-      expect(shortGreeting).to.have.string(firstInitial);
-      expect(shortGreeting).to.not.have.string(restOfName);
-    });
+    it('charges 25 dollars for a distance over 2000 feet', () => {
+      expect(calculatesFarePrice(50, 58)).to.equal(25);
+    })
 
-    it('ends with an exclamation point', () => {
-      expect(shortGreeting.substr(-1)).to.eq('!');
-    });
-  });
+    it('does not allow rides over 2500 feet', () => {
+      expect(calculatesFarePrice(34, 24)).to.equal('cannot travel that far')
+    })
+
+    it('charges 2 cents per foot (and does not give any discount on the first 200 feet) total feet travelled in example below is 528', () => {
+      // total feet travelled is 528 -> 10.56
+      expect(calculatesFarePrice(34, 32)).to.equal(10.56)
+    })
+  })
 });

@@ -17,9 +17,9 @@ Second, customers want Scuber to calculate the number of feet traveled based on 
 
 If you run `learn-test` you will see the tests that are breaking and that you will be working to fix.  It's easier to understand and solve the problem if you look through the tests, which are located in `test/indexTest.js`.  After the word `describe`, you will see the name of the function that the test is testing, for example the first function tested is `distanceFromHqInBlocks`.  Then in after the word `it` you can see the specifications of the function.  The test literally calls the function that you write in `index.js`.  So the first test will call your declared function `distanceFromHqInBlocks` and pass through an argument of `43`.  
 
-* distanceFromHqInBlocks: Returns the number of blocks from Scuber's headquarters to the pickup location.
+* `distanceFromHqInBlocks`: Returns the number of blocks from Scuber's headquarters to the pickup location.
 
-* distanceFromHqInFeet: Returns the number of blocks from Scuber's headquarters to the pickup location.  Note that you can use your `distanceFromHqInBlocks` function to help return the correct value here.  Here is an example of how to do this:
+* `distanceFromHqInFeet`: Returns the number of blocks from Scuber's headquarters to the pickup location.  Note that you can use your `distanceFromHqInBlocks` function to help return the correct value here.  Here is an example of how to do this:
 
 ```javascript
 function distanceFromHqInBlocks(){
@@ -32,6 +32,6 @@ function distanceFromHqInFeet(){
 }
 ```
 
-* distanceTravelledInFeet: Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South.  It uses the knowledge that a block is 264 feet long.
+* `distanceTravelledInFeet`: Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South.  It uses the knowledge that a block is 264 feet long.
 
-* calculatesFarePrice: Given the same starting and ending block, return the fare for the customer.  The first four hundred feet are free.  For a distance between 400 and 2000 feet, the price is 2 cents per foot.  Then Scuber charges a flat fare for a distance over 2000 feet and under 2500 feet.  Finally Scuber does not allow any rides over 2500 feet - the function returns `'cannot travel that far'` if a ride over 2500 feet is requested.  
+* `calculatesFarePrice`: Given the same starting and ending block, return the fare for the customer.  The first four hundred feet are free.  For a distance between 400 and 2000 feet, the price is 2 cents per foot.  Then Scuber charges a flat fare for a distance over 2000 feet and under 2500 feet.  Finally Scuber does not allow any rides over 2500 feet - the function returns `'cannot travel that far'` if a ride over 2500 feet is requested.  

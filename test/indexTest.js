@@ -48,7 +48,7 @@ describe('index.js', function() {
       expect(calculatesFarePrice(43, 44)).to.equal(0);
     });
 
-    it('charges 2 cents per foot (and does not give any discount on the first 200 feet) when total feet travelled between 400 and 2000 in example below is 528', function() {
+    it('charges 2 cents per foot when total feet travelled is between 400 and 2000 in example below is 528', function() {
       // total feet travelled is 528 -> 10.56
       expect(calculatesFarePrice(34, 32)).to.equal(10.56);
     });

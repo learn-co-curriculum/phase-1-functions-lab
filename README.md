@@ -2,7 +2,8 @@
 
 ## Objectives
 1. Practice writing functions
-2. Explain basics of working with strings
+2. Explain calling functions from within other functions
+2. Practice basics of control flow and `return` statements
 
 ## Introduction
 Scuber has gained some traction among mom's and dad's in New York City. It also has received a few requests.

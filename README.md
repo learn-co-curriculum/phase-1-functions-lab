@@ -40,19 +40,20 @@ argument of `43`.
 * `distanceFromHqInBlocks`: Returns the number of blocks from Scuber's
 headquarters to the pickup location.
 
-* `distanceFromHqInFeet`: Returns the number of blocks from Scuber's
+* `distanceFromHqInFeet`: Returns the number of feet from Scuber's
 headquarters to the pickup location. Note that you can use your
 `distanceFromHqInBlocks` function to help return the correct value here. Here
 is an example of how to do this:
 
 ```js
-function distanceFromHqInBlocks () {
-
+function distanceFromHqInBlocks (someValue) {
+  //returns the number of blocks given a value
 }
 
-function distanceFromHqInFeet () {
-  distanceFromHqInBlocks();
-  // calls distanceFromHqInBlocks from inside the distanceFromHqInFeet function
+function distanceFromHqInFeet (someValue) {
+  distanceFromHqInBlocks(someValue);
+  // calls distanceFromHqInBlocks from inside the distanceFromHqInFeet function, passing the argument from distanceFromHqInFeet into distanceFromHqInBlocks
+  //the return value of distanceFromHqInBlocks can then be used to calculate feet
 }
 ```
 

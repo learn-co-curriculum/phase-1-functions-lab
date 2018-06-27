@@ -39,9 +39,8 @@ To complete all of your work assignments, you'll need to write four functions:
 headquarters to the pickup location.
 
 * `distanceFromHqInFeet`: Returns the number of feet from Scuber's
-headquarters to the pickup location. Note that you can use your
-`distanceFromHqInBlocks` function to help return the correct value here. Here
-is an example of how to do this:
+headquarters to the pickup location. You can use your
+`distanceFromHqInBlocks` function to help return the correct value here. Try something like this:
 
 ```js
 function distanceFromHqInBlocks (someValue) {

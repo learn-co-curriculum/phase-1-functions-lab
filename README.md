@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-1. Practice writing functions
-2. Explain calling functions from within other functions
-3. Practice basics of control flow and `return` statements
+- Practice writing functions
+- Explain calling functions from within other functions
+- Practice basics of control flow and `return` statements
 
 ## Introduction
 

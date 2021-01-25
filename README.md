@@ -1,16 +1,22 @@
 # Functions Lab
 
-## Problem Statement
+## Learning Goals
 
-Scuber, our transportation company, has gained some traction among moms and dads in New York City. It has
-also received a few requests.
+1. Practice writing functions
+2. Explain calling functions from within other functions
+3. Practice basics of control flow and `return` statements
 
-First, Scuber's executives want to ensure that Scuber's headquarters is near
-its customers. They would like you to write a function that takes in a pickup location
-for a passenger, and returns the number of blocks from its headquarters on
-42nd Street. For example, if the pickup location is `50` (i.e., 50th Street), 
-the return value should be `8`. The function's return value can then be used for 
-another function that translates the number of blocks from headquarters to the 
+## Introduction
+
+Scuber, our transportation company, has gained some traction among moms and dads
+in New York City. It has also received a few requests.
+
+First, Scuber's executives want to ensure that Scuber's headquarters is near its
+customers. They would like you to write a function that takes in a pickup
+location for a passenger, and returns the number of blocks from its headquarters
+on 42nd Street. For example, if the pickup location is `50` (i.e., 50th Street),
+the return value should be `8`. The function's return value can then be used for
+another function that translates the number of blocks from headquarters to the
 distance in feet.
 
 Second, customers want Scuber to calculate the number of feet travelled based on
@@ -20,18 +26,13 @@ block in Manhattan is 264 feet long. For example `distanceTravelledInFeet(34, 38
 representing 34th St to 38th St, returns 1056 (`(38-34)*264`). You can assume
 that we are only calculating distance uptown/downtown, not from river to river.
 
-## Objectives
-
-1. Practice writing functions
-2. Explain calling functions from within other functions
-2. Practice basics of control flow and `return` statements
-
 ## Instructions
 
 Run `learn` and look at the tests currently breaking. You will need to write
 these functions from scratch, and test them as you go to get them working.
 Remember to look through the tests, which are located in `test/indexTest.js`.
-It's a bit easier to think through the testing process in steps. 
+It's a bit easier to think through the testing process in steps.
+
 1. The first describe statement, `describe('index.js', function()`, tells us the
 file being tested. Here, it's the `index.js` file.
 2. Our second describe statement, `describe('distanceFromHqInBlocks()',
@@ -39,17 +40,18 @@ function()`, lets us know what the name of our function is. In this case, our
 test is expecting to find a function called `distanceFromHqInBlocks()`.
 3. Our third statement, `it('returns a distance in blocks', function()`, describes
 what our function is doing. In this case, we're going to be calculating some
-kind of distance. 
+kind of distance.
 4. Finally, our last statement, `expect(distanceFromHqInBlocks(43)).to.equal(1)`,
 tells us what our test is expecting the result to be. There are a couple really
 important clues here. Our first one is the 43. That tells us that our function
 is expecting an argument to be passed in, so we'll need to specify some kind of
 variable. Our other clue is the 1, because that tells us what the result is. If
 we're passing in 43, we're expecting our function to calculate that it's 1 block
-from headquarters. 
+from headquarters.
+
 Try reading through all of the tests first, before you write any code! It will
 help you decide how to structure your code in the cleanest and most efficient
-manner. 
+manner.
 
 To complete all of your work assignments, you'll need to write four functions:
 

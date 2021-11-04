@@ -13,8 +13,8 @@ in New York City. It has also received a few requests.
 
 First, Scuber's executives want to ensure that Scuber's headquarters is near its
 customers. They would like you to write a function, `distanceFromHqInBlocks`,
-that takes in a pickup location for a passenger, and returns the *number of
-blocks* from Scuber headquarters on 42nd Street. For example, if the pickup
+that takes in a pickup location for a passenger, and returns the _number of
+blocks_ from Scuber headquarters on 42nd Street. For example, if the pickup
 location is `50` (i.e., 50th Street), the return value should be `8`.
 
 The `distanceFromHqInBlocks` function's return value can then be used for
@@ -65,7 +65,7 @@ function distanceFromHqInFeet(someValue) {
 
   ```js
   function distanceTravelledInFeet(start, destination) {
-    //returns the number of feet traveled 
+    //returns the number of feet traveled
   }
   ```
 
@@ -111,5 +111,6 @@ Try reading through all of the tests first, before you write any code! It will
 help you decide how to structure your code in the cleanest and most efficient
 manner.
 
-# Resources 
-[MDN Docs - Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+## Resources
+
+- [MDN Docs - Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)

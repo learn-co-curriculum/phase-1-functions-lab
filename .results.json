@@ -2,6 +2,7 @@
   "stats": {
     "suites": 5,
     "tests": 13,
+
     "passes": 0,
     "pending": 0,
     "failures": 13,
@@ -13,6 +14,7 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+
       "duration": 0,
       "currentRetry": 0,
       "err": {
@@ -25,6 +27,7 @@
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "duration": 0,
       "currentRetry": 0,
+
       "err": {
         "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:8:7)\n    at processImmediate (node:internal/timers:464:21)",
         "message": "distanceFromHqInBlocks is not defined"
@@ -35,6 +38,7 @@
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
+
       "err": {
         "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at processImmediate (node:internal/timers:464:21)",
         "message": "distanceFromHqInBlocks is not defined"
@@ -144,6 +148,7 @@
   "pending": [],
   "failures": [
     {
+
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "duration": 0,
@@ -274,5 +279,6 @@
       }
     }
   ],
+
   "passes": []
 }

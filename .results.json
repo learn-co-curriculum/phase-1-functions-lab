@@ -1,0 +1,261 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 13,
+    "passes": 3,
+    "pending": 0,
+    "failures": 10,
+    "start": "2022-01-11T22:26:37.341Z",
+    "end": "2022-01-11T22:26:37.600Z",
+    "duration": 259
+  },
+  "tests": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:22:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInFeet is not defined"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:26:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:32:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceTravelledInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceTravelledInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns distance when destination is below distance",
+      "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:40:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceTravelledInFeet is not defined"
+      }
+    },
+    {
+      "title": "gives customers a free sample",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:46:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:51:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:55:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:22:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInFeet is not defined"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:26:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:32:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceTravelledInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceTravelledInFeet is not defined"
+      }
+    },
+    {
+      "title": "returns distance when destination is below distance",
+      "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:40:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceTravelledInFeet is not defined"
+      }
+    },
+    {
+      "title": "gives customers a free sample",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:46:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    },
+    {
+      "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:51:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:55:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "calculatesFarePrice is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

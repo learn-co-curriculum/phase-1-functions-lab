@@ -2,34 +2,47 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 3,
+
+    "passes": 0,
     "pending": 0,
-    "failures": 10,
-    "start": "2022-01-11T22:26:57.595Z",
-    "end": "2022-01-11T22:26:58.231Z",
-    "duration": 636
+    "failures": 13,
+    "start": "2022-01-11T22:12:18.767Z",
+    "end": "2022-01-11T22:12:18.945Z",
+    "duration": 178
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+
+      "duration": 0,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:4:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:8:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
-      "err": {}
+
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
     },
     {
       "title": "returns a distance in feet",
@@ -135,6 +148,37 @@
   "pending": [],
   "failures": [
     {
+
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:4:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
+    },
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:8:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:12:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
+    },
+    {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
@@ -235,27 +279,6 @@
       }
     }
   ],
-  "passes": [
-    {
-      "title": "returns a distance in blocks",
-      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "returns a distance in blocks",
-      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ]
+
+  "passes": []
 }

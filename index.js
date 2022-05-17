@@ -1,1 +1,3 @@
-// Code your solution in this file!
+function distanceFromHqInBlocks(customer) {
+    return Math.abs(customer-42)
+}

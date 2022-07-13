@@ -85,8 +85,8 @@ function distanceFromHqInFeet(someValue) {
 
 ## Understanding the Tests
 
-Run `learn` and look at the tests currently breaking. You will need to write
-four functions from scratch, and test them as you go to get them working.
+Run `learn test` and look at the tests currently breaking. You will need to
+write four functions from scratch, and test them as you go to get them working.
 Remember to look through the tests, which are located in `test/indexTest.js`.
 It's a bit easier to think through the testing process in steps.
 

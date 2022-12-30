@@ -27,9 +27,15 @@ the distance. Write a function called `distanceTravelledInFeet` that takes in
 both the start and destination blocks, and returns the number of feet travelled.
 Remember, each block in Manhattan is 264 feet long. For example
 `distanceTravelledInFeet(34, 38)` representing 34th St to 38th St, returns 1056
-(`(38-34)*264`).
-You can assume that we are only calculating distance uptown/downtown, not from
-river to river.
+(`(38-34)*264`). You can assume that we are only calculating distance
+uptown/downtown, not from river to river.
+
+## Getting Started
+
+If you haven't already, fork and clone this lab into your local environment.
+Remember to **fork** a copy into your GitHub account first, then **clone** from
+that copy. Navigate into its directory in the terminal, then run `code .` to
+open the files in Visual Studio Code.
 
 ## Instructions
 
@@ -85,10 +91,11 @@ function distanceFromHqInFeet(someValue) {
 
 ## Understanding the Tests
 
-Run `npm test` and look at the tests currently breaking. You will need to write
-four functions from scratch, and test them as you go to get them working.
-Remember to look through the tests, which are located in `test/indexTest.js`.
-It's a bit easier to think through the testing process in steps.
+Run `npm test` and look at the tests currently breaking (remember you need to
+run `npm install` first). You will need to write four functions from scratch,
+and test them as you go to get them working. Remember to look through the tests,
+which are located in `test/indexTest.js`. It's a bit easier to think through the
+testing process in steps.
 
 1. The first describe statement, `describe('index.js', function()`, tells us
    that the file being tested is the `index.js` file.
@@ -110,6 +117,9 @@ It's a bit easier to think through the testing process in steps.
 Try reading through all of the tests first, before you write any code! It will
 help you decide how to structure your code in the cleanest and most efficient
 manner.
+
+After you have all the tests passing, remember to commit and push your changes
+up to GitHub, then submit your work to Canvas using CodeGrade.
 
 ## Resources
 

@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-03-24T11:37:18.719Z",
+    "end": "2024-03-24T11:37:23.786Z",
+    "duration": 5067
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 5029,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /home/dudley/documents/phase-1-functions-lab1/phase-1-functions-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": []
+}

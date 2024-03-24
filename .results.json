@@ -2,9 +2,9 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 0,
+    "passes": 13,
     "pending": 0,
-    "failures": 13,
+    "failures": 0,
     "start": "2024-03-24T11:49:35.233Z",
     "end": "2024-03-24T11:49:39.990Z",
     "duration": 4757
